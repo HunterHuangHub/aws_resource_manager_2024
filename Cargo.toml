@@ -1,0 +1,13 @@
+[package]
+name = "aws_resource_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = { version = "1.5.11", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.66.0"  # Latest stable version for aws-sdk-s3
+tokio = { version = "1", features = ["full"] }
+clap = "4.0"
+anyhow = "1.0"
+
+

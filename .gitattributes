@@ -1,0 +1,10 @@
+# Automatically normalize line endings
+* text=auto
+
+# Ensure Rust files always use LF
+*.rs text eol=lf
+
+# Handle specific files explicitly if needed
+.gitignore text eol=lf
+Cargo.lock text eol=lf
+Cargo.toml text eol=lf
